@@ -17,12 +17,23 @@ function setup() {
  whiteCircleVectorPos = createVector(width/2,height/2);
 //   whiteCircleX =  width/2;
 //   whiteCircleY = height/2;
+var gui = new dat.GUI();
+
+gui.add(vars, 'showIndicators');
+var controller = gui.add(vars, 'size', 80, 200);
+gui.add(vars, 'color');
+
+
+controller.onChange(function() {
+  cancelAnimationFrame(rafID);
+  initCanvas();
+});
 }
 
 function draw() {
   background(100,30,40);
   fill(255);
-  ellipse(whiteCircleVectorPos.x+100,whiteCircleVectorPos.y,150,150);
+  ellipse(whiteCircleVectorPos.x+100,whiteCircleVectorPos.y,150,'size');
   ellipse(whiteCircleVectorPos.x-100,whiteCircleVectorPos.y,150,150);
   fill(0);
   
