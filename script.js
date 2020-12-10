@@ -49,7 +49,7 @@ function draw() {
   stroke(255);
   noFill();
   arc(whiteCircleVectorPos.x+10, whiteCircleVectorPos.y+130, 110, 70, 0, HALF_PI, OPEN);
-  stroke('black');
+  stroke(0);
   strokeWeight(3);
   arc(whiteCircleVectorPos.x+50, whiteCircleVectorPos.y+125, 60, 6, 0, QUARTER_PI, OPEN);
   pop();
@@ -57,5 +57,5 @@ function draw() {
 }
 
 function windowResized(){
-    resizeCanvas(windowWidth, windowHeight)
+    resizeCanvas(windowWidth, windowHeight);
 }
