@@ -17,18 +17,7 @@ function setup() {
  whiteCircleVectorPos = createVector(width/2,height/2);
 //   whiteCircleX =  width/2;
 //   whiteCircleY = height/2;
-// var gui = new dat.GUI();
-
-// gui.add(vars, 'showIndicators');
-// var controller = gui.add(vars, 'size', 80, 200);
-// gui.add(vars, 'color');
-
-
-// controller.onChange(function() {
-//   cancelAnimationFrame(rafID);
-//   initCanvas();
-// });
-// }
+}
 
 function draw() {
   background(100,30,40);
@@ -49,7 +38,7 @@ function draw() {
   stroke(255);
   noFill();
   arc(whiteCircleVectorPos.x+10, whiteCircleVectorPos.y+130, 110, 70, 0, HALF_PI, OPEN);
-  stroke(0);
+  stroke('rgb(4, 96, 124)');
   strokeWeight(3);
   arc(whiteCircleVectorPos.x+50, whiteCircleVectorPos.y+125, 60, 6, 0, QUARTER_PI, OPEN);
   pop();
@@ -57,5 +46,5 @@ function draw() {
 }
 
 function windowResized(){
-    resizeCanvas(windowWidth, windowHeight);
+    resizeCanvas(windowWidth, windowHeight)
 }
