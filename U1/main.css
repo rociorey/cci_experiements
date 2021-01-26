@@ -1,0 +1,65 @@
+body {
+    background-image: url(backgroundImage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgba(112, 187, 197, 0.2);
+
+   
+  }
+
+#all{
+    /* padding-top: 5%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%; */
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#main{
+    /* display:grid; */
+     margin: 6%;
+    max-width: 900;
+    padding-top: 5%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr,1fr,2fr;
+    background-color: rgba(112, 187, 197, 0.3);
+    padding: 2em;
+    line-height: 0.8;
+   
+      
+}
+
+  #title{
+    line-height: 1.5;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      text-decoration: underline;
+      text-decoration-color: rgb(200, 214, 210,0.5);
+      text-decoration-style: wavy;
+      text-decoration-thickness: 4px;
+  }
+
+  a:link {
+    color: white;
+    background-color: rgb(200, 214, 210,0.5);
+    text-decoration: white;
+  }
+  
+  a:visited {
+    color: white;
+    background-color:rgba(163, 177, 173, 0.5);
+    text-decoration: white;
+  }
+  
+  a:hover {
+    color: white;
+    background-color:  rgba(146, 129, 155, 0.5);
+    text-decoration: white;
+  }
+
