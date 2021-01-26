@@ -1,6 +1,6 @@
 
 body {
-    background-image: url(img/backgroundImage.png);
+    background-image: url(backgroundImage.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: soft-light;
