@@ -8,9 +8,11 @@ body {
 
 #all{
     /* padding-top: 5%;
-    padding-bottom: 10%;
+
     padding-left: 10%;
     padding-right: 10%; */
+    
+        padding-bottom: 4%;
     display: flex;
     justify-content: center;
     color: whitesmoke;
@@ -34,11 +36,11 @@ body {
 }
 
   #title{
-    line-height: 1.5;
+    line-height: 2;
       grid-column-start: 1;
       grid-column-end: 2;
       text-decoration: underline;
-      text-decoration-color: rgb(200, 214, 210,0.5);
+      text-decoration-color: rgb(200, 214, 210);
       text-decoration-style: wavy;
       text-decoration-thickness: 4px;
   }
