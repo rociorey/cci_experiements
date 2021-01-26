@@ -36,7 +36,7 @@ body {
 }
 
   #title{
-    line-height: 3;
+    line-height: 2;
       grid-column-start: 1;
       grid-column-end: 2;
       text-decoration: underline;
