@@ -62,3 +62,7 @@ body {
     background-color:  rgba(146, 129, 155, 0.5);
     text-decoration: white;
   }
+
+  #indexLinks{
+      line-height: 2;
+}
