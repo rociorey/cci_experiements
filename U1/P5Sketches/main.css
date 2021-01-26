@@ -28,7 +28,7 @@ body {
     padding-top: 5%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr,1fr,2fr;
-    background-color: rgba(112, 187, 197, 0.3);
+/*     background-color: rgba(112, 187, 197, 0.3); */
     padding: 2em;
     line-height: 2;
    
