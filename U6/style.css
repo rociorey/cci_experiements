@@ -1,0 +1,13 @@
+html .handsfree-debugger {
+    width: 350px;
+    position: fixed;
+    top: 100px;
+    display: block;
+  }
+  html .handsfree-canvas-video {
+    opacity: 0.1
+  }
+
+ #NumberSign {
+   display: none;
+ }
